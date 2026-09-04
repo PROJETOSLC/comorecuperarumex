@@ -143,11 +143,38 @@
 }
 
 @utility eyebrow {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.24em;
+  font-size: 0.63rem;
+  font-weight: 500;
+  letter-spacing: 0.32em;
   text-transform: uppercase;
   color: var(--terracotta);
+}
+
+@utility display-italic {
+  font-family: var(--font-serif-alt);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+@utility numeral {
+  font-family: var(--font-serif-alt);
+  font-variant-numeric: lining-nums;
+  letter-spacing: 0.08em;
+}
+
+@utility film-grain {
+  position: relative;
+}
+
+@utility film-grain-layer {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--texture-grain);
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
