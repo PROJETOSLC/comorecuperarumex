@@ -5,7 +5,7 @@ export function FloatingCta() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > 900);
+    const onScroll = () => setVisible(window.scrollY > 700);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -19,9 +19,9 @@ export function FloatingCta() {
     >
       <a
         href={CHECKOUT_URL}
-        className="flex min-h-12 items-center justify-center rounded-full bg-wine/95 px-6 text-sm font-medium tracking-wide text-primary-foreground shadow-[var(--shadow-soft)] backdrop-blur"
+        className="flex min-h-12 items-center justify-center rounded-sm bg-wine/95 px-6 text-[0.72rem] font-medium uppercase tracking-[0.2em] text-primary-foreground shadow-[var(--shadow-lift)] backdrop-blur"
       >
-        Conhecer o conteúdo →
+        Conhecer o guia →
       </a>
     </div>
   );
