@@ -185,7 +185,7 @@ function Landing() {
         </section>
 
         {/* 2 — IDENTIFICAÇÃO */}
-        <section className="relative overflow-hidden bg-[var(--gradient-warm)] px-5 py-24 md:px-10 md:py-36">
+        <section className="relative overflow-hidden bg-background [background-image:var(--gradient-warm)] px-5 py-24 md:px-10 md:py-36">
           <div className="mx-auto max-w-[1240px]">
             <div className="grid gap-14 md:grid-cols-12 md:gap-16">
               <Reveal className="md:col-span-6">
@@ -224,7 +224,7 @@ function Landing() {
         </section>
 
         {/* 3 — FRASE DE IMPACTO */}
-        <section className="relative flex min-h-[80svh] items-center overflow-hidden bg-[var(--gradient-wine)] px-5 py-28 md:px-10">
+        <section className="relative flex min-h-[80svh] items-center overflow-hidden bg-wine [background-image:var(--gradient-wine)] px-5 py-28 md:px-10">
           <div className="pointer-events-none absolute inset-0 opacity-[0.2] mix-blend-overlay [background-image:var(--texture-grain)]" />
           <div className="relative mx-auto max-w-3xl text-center">
             <Reveal>
@@ -447,7 +447,7 @@ function Landing() {
         </section>
 
         {/* 10 — CTA FINAL */}
-        <section className="relative overflow-hidden bg-[var(--gradient-wine)] px-5 py-28 md:px-10 md:py-40">
+        <section className="relative overflow-hidden bg-wine [background-image:var(--gradient-wine)] px-5 py-28 md:px-10 md:py-40">
           <div className="pointer-events-none absolute inset-0 opacity-[0.2] mix-blend-overlay [background-image:var(--texture-grain)]" />
           <Reveal className="relative mx-auto max-w-3xl text-center">
             <p className="eyebrow text-[var(--gold)]">Antes do próximo passo</p>
