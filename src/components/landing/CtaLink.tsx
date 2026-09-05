@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export const CHECKOUT_URL = "https://pay.kiwify.com.br/XFOECYi";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/nCtiEXI";
 
 export function CtaLink({
   children,
