@@ -108,24 +108,10 @@ function Landing() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Topbar */}
-      <header className="fixed inset-x-0 top-0 z-40 border-b border-border/50 bg-background/80 backdrop-blur-md">
-        <div className="mx-auto flex h-14 max-w-[1240px] items-center justify-between px-5 md:px-10">
-          <span className="font-display text-[0.95rem] tracking-[0.16em] uppercase text-wine">
-            Recuperar<span className="text-[var(--gold)]">.</span>
-          </span>
-          <a
-            href={CHECKOUT_URL}
-            className="hidden text-[0.68rem] font-medium uppercase tracking-[0.22em] text-wine transition-colors duration-300 hover:text-terracotta md:inline-block"
-          >
-            Conhecer o guia
-          </a>
-        </div>
-      </header>
-
       <main>
         {/* HERO */}
-        <section className="relative min-h-[100svh] w-full overflow-hidden pt-14">
+        <section className="relative min-h-[100svh] w-full overflow-hidden">
+
           <div ref={heroImg.ref} className="absolute inset-0">
             <img
               src={heroWindow}
