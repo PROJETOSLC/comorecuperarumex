@@ -136,18 +136,19 @@ function Landing() {
               style={{ transform: `translate3d(0, ${-heroImg.offset}px, 0)` }}
             />
           </div>
-          <div className="absolute inset-0 bg-[linear-gradient(100deg,oklch(0.19_0.02_45/0.86)_0%,oklch(0.19_0.02_45/0.6)_42%,oklch(0.19_0.02_45/0.15)_75%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(to_top,oklch(0.17_0.018_45/0.92)_0%,oklch(0.18_0.02_45/0.72)_55%,oklch(0.19_0.02_45/0.45)_100%)] md:bg-[linear-gradient(100deg,oklch(0.19_0.02_45/0.86)_0%,oklch(0.19_0.02_45/0.6)_42%,oklch(0.19_0.02_45/0.15)_75%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(to_top,oklch(0.17_0.018_45/0.75),transparent_45%)]" />
           <div className="pointer-events-none absolute inset-0 opacity-[0.14] mix-blend-overlay [background-image:var(--texture-grain)]" />
 
           <div className="relative mx-auto flex min-h-[calc(100svh-3.5rem)] max-w-[1240px] flex-col justify-end px-5 pb-16 pt-24 md:justify-center md:px-10 md:pb-24">
             <div className="max-w-[46rem]">
               <Reveal>
-                <p className="eyebrow text-[var(--gold)]">
+                <p className="eyebrow text-[0.72rem] leading-[1.6] tracking-[0.18em] text-[var(--gold)] md:text-[0.63rem] md:tracking-[0.32em]">
                   Um guia para quem ainda não conseguiu se desligar
                 </p>
                 <div className="mt-5 h-px w-16 bg-[var(--hairline-gold)] opacity-70" />
               </Reveal>
+
 
               <Reveal delay={120}>
                 <h1 className="mt-7 font-display text-[2.15rem] leading-[1.1] text-[var(--sand)] sm:text-5xl md:text-[4.1rem] md:leading-[1.06]">
