@@ -9,6 +9,9 @@ import { CtaLink, CHECKOUT_URL } from "@/components/landing/CtaLink";
 import { FloatingCta } from "@/components/landing/FloatingCta";
 import { Reveal } from "@/components/landing/Reveal";
 import { useParallax } from "@/components/landing/Parallax";
+import { VideoSection } from "@/components/landing/VideoSection";
+import { HelpCards } from "@/components/landing/HelpCards";
+import { OfferSection } from "@/components/landing/OfferSection";
 import {
   Accordion,
   AccordionContent,
@@ -183,6 +186,10 @@ function Landing() {
             </div>
           </div>
         </section>
+
+        <VideoSection />
+
+        <HelpCards />
 
         {/* 2 — IDENTIFICAÇÃO */}
         <section className="relative overflow-hidden bg-background [background-image:var(--gradient-warm)] px-5 py-24 md:px-10 md:py-36">
@@ -418,6 +425,8 @@ function Landing() {
             <div className="mx-auto mt-10 h-px w-16 bg-[var(--hairline-gold)]" />
           </Reveal>
         </section>
+
+        <OfferSection />
 
         {/* 9 — FAQ */}
         <section className="bg-background px-5 py-24 md:px-10 md:py-32">

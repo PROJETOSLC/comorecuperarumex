@@ -94,6 +94,7 @@
   --shadow-lift: 0 40px 100px -48px oklch(0.19 0.03 40 / 0.5);
   --gradient-warm: linear-gradient(170deg, oklch(0.99 0.008 85), oklch(0.955 0.018 80) 60%, oklch(0.975 0.012 85));
   --gradient-wine: linear-gradient(150deg, oklch(0.31 0.082 20), oklch(0.19 0.03 30) 75%);
+  --gradient-rose: linear-gradient(135deg, oklch(0.45 0.16 12), oklch(0.34 0.12 340) 55%, oklch(0.26 0.08 300));
   --hairline-gold: linear-gradient(90deg, transparent, var(--gold), transparent);
   --texture-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
 }
