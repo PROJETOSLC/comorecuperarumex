@@ -12,4 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Hosting target. Inside Lovable the platform pins its own preset; outside
+  // (e.g. Netlify CI) this makes the build emit a Netlify-ready output.
+  nitro: { preset: process.env["NITRO_PRESET"] ?? "netlify" },
 });
+
